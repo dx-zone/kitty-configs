@@ -1,0 +1,1 @@
+~/.config/kitty/backgrounds/datacenter_dark.png

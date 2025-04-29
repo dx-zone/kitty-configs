@@ -1,0 +1,14 @@
+# ~/.config/kitty/kitty.conf
+
+# Include shared settings (all major settings are defined here)
+include shared-settings.conf
+
+allow_remote_control yes
+listen_on unix:~/.config/kitty/.kitty_socket
+
+# Setting background opacity
+background_opacity 0.9
+
+# Setting background
+background_image ~/.config/kitty/backgrounds/bg-blurred-darker.png
+background_image_layout scaled
