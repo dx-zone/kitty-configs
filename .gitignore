@@ -1,1 +1,205 @@
+# -------------------------------
+# Operating System generated files
+# -------------------------------
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.Trash-*
+
+# Obsidian-specific files and folders
+.obsidian/
+.obsidian/*
+.vault
+*.md~  # Temporary or unsaved Markdown files
+*.md~
+
+# -------------------------------
+# IDE and Editor generated files
+# -------------------------------
+
+# JetBrains (CLion, IntelliJ IDEA, etc.)
+.idea/
+.idea/*/
+*.iml
+out/
+
+# VSCode
+.vscode/
+.vscode/*
+
+# Eclipse
+.project
+.classpath
+.cproject
+.settings/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# NetBeans
+nbproject/private/
+
+# Code::Blocks
+*.swp
+*.layout
+*.depend
+
+# Vim
+*.swp
+*.swo
+*.zip
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+*.bak
+*.elc
+
+# -------------------------------
+# Log files and temporary development files
+# -------------------------------
+
+# Logs
+*.log
+*.trace
+*.stackdump
+*.pid
+*.seed
+*.log.*       # eg. log.1, log.old
+*.out
+
+# Debug or temporary files
+*.tmp
+*.temp
+*.old
+*.bak
+*.swp         # vi or swap files
+*.orig        # Auto-resolve backups
+*.rej         # Patch conflicts
+
+# Coverage or profiler reports
+*.gcda
+*.gcno
+*.gcov
+*.lcov
+.coverage
+.nyc_output/
+
+# -------------------------------
+# Build and dependencies
+# -------------------------------
+
+# Compiled object files
+*.o
+*.out
+*.obj
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.lib
+*.a
+
+# Executable files
+*.exe
+*.out
+*.app
+*.bin
+
+# Generated binaries
+/bin/
+/build/
+**/CMakeCache.txt
+**/CMakeFiles/
+Makefile
+CMakeFiles/
+
+# Dependency directories
+node_modules/
+vendor/
+.bower_components/
+target/
+dist/
+
+# Python
+*.py[cod]
+__pycache__/
+
+# Rust
+target/
+Cargo.lock
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+
+# -------------------------------
+# DevOps, environment, and secrets
+# -------------------------------
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+*.terraform/
+
+# Secrets and Environment Files
+# ------------------------------
+.env
+.env.*
+*.env
+.envrc
+.env.bak
+*.vault
+vault/
+.vault/
+*.key
+*.pem
+*.crt
+*.cer
+*.enc
+*.p12
+*.jks
+*.secrets
+secret*
+*.confidential
+*.sops    # If you're using SOPS
+
+# -------------------------------
+# Miscellaneous good practices
+# -------------------------------
+
+# Temporary or transient files
+*.tmp
+*.temp
+*.swp
+*.~lock.*
+
+# README backups
+README.md.bak
+
+# Files starting with #
+#*#
+
+# Ignore system libraries or caches
+.cache/
+*.snap
+.*snapshots
+
+# Ignore GPG key backups
+*gpg*key*
