@@ -22,6 +22,7 @@ $RECYCLE.BIN/
 .vault
 *.md~  # Temporary or unsaved Markdown files
 *.md~
+.notes/*
 
 # -------------------------------
 # IDE and Editor generated files
